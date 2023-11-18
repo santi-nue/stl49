@@ -13,7 +13,7 @@ RUN apt-get -y -qq update \
         xubuntu-icon-theme \
         tigervnc-standalone-server \
         tigervnc-xorg-extension \
-        firefox
+        firefox \
     # chown $HOME to workaround that the xorg installation creates a
     # /home/jovyan/.cache directory owned by root
     # Create /opt/install to ensure it's writable by pip
